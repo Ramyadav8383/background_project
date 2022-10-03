@@ -10,13 +10,16 @@ body {
 }
 .container {
   max-width: 1160px;
+  width: 90vw;
   margin: 0 auto;
+  /* padding: 0 2rem; */
   color: #fff;
 }
 /* navbar */
 .navbar {
-  background: #333;
+  background: rgb(44, 43, 43);
   height: 5rem;
+  letter-spacing: 0.1rem;
   /* color: #fff; */
   text-transform: uppercase;
   padding-top: 0.5rem;
@@ -46,4 +49,6 @@ body {
   border: 1px solid #fff;
   text-decoration: none;
   color: #fff;
+  /* cursor: pointer; */
+  /* cursor: col-resize; */
 }
